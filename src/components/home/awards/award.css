@@ -1,0 +1,51 @@
+.award{
+    background-color: #122947;
+    color: #fff;
+    text-align: center;
+}
+
+.award .heading{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.award .heading p {
+    color: #27ae60;
+}
+
+.award .heading h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.award .icon {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    line-height: 100px;
+    margin-top: 50px;
+    background-color: rgba(255 , 255 , 255 , 0.1);
+    border-radius: 4% 50%;
+    font-size: 32px;
+}
+
+.award h1 {
+    font-size: 50px;
+}
+.award p {
+    color: grey;
+}
+
+
+@media screen and (max-width: 692px) {
+    .grid4 {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+    }
+}
+
+/* //margin-bottom: 32px font size 15px */
+
+/* margin-bottom: 142px;
+font-size: 12px; */

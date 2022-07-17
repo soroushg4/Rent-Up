@@ -1,0 +1,110 @@
+.team .box {
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid rgb(62 28 131 / 10%);
+    padding: 1rem;
+    transition: 0.5s;
+}
+
+.team .box:hover{
+    box-shadow: 0 0 20px 0 rgba(37, 41, 48, 0.18);
+    cursor: pointer;
+}
+
+.team .details {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.team .img{
+    width: 90px;
+    /* height: 90px; */
+    margin: auto;
+    position: relative;
+}
+
+.team img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.team .img i {
+    color: #108be7;
+    font-size: 17px;
+    position: absolute;
+    top: 35px;
+    right: -10px;
+}
+
+.team .img::after {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 110px;
+    height: 110px;
+    border: 5px solid #edf0f5;
+    border-radius: 50%;
+}
+
+.team label {
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+.team i {
+    color: grey;
+    margin-right: 5px;
+}
+
+.team ul li{
+    display: inline-grid;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    background-color: #f4f5f7;
+    border-radius: 50%;
+    margin: 6px;
+}
+
+.team .button {
+    margin-top: 20px;
+
+}
+
+.team .button i {
+    color: #fff;
+}
+
+
+.ri-twitter-fill{
+    transition: 0.3s;
+}
+.ri-instagram-fill{
+    transition: 0.3s;
+}
+.ri-linkedin-fill{
+    transition: 0.3s;
+}
+.ri-facebook-fill{
+    transition: 0.3s;
+}
+
+
+.ri-twitter-fill:hover{
+    color: rgb(0, 132, 180);
+}
+
+.ri-instagram-fill:hover {
+   color: rgb(228, 64, 95)
+}
+
+.ri-linkedin-fill:hover {
+    color: rgb(0, 119, 181);
+}
+
+.ri-facebook-fill:hover {
+    color: rgb(66 103 178);
+}

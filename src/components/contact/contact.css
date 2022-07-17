@@ -1,0 +1,50 @@
+
+.shadow-form div {
+    display: flex;
+}
+.shadow-form {
+    height: 100%;
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.shadow-form h4 {
+    margin-bottom: 40px;
+}
+form input {
+    border-radius: 7px;
+}
+
+form input::placeholder {
+    color: #a5a5a5;
+    font-size: 15px;
+}
+
+form input:nth-child(2) {
+    margin-left: 10px;
+}
+
+form input:nth-child(3) {
+    margin-top: 25px;
+}
+form textarea {
+    border: 1px solid rgb(112 121 138 / 18%);
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 860px) {
+    .shadow div {
+        display: inline-block;
+        margin-top: 40px;
+    }
+    form input:nth-child(2) {
+        margin-left: 0px;
+    }
+    .inp-contact {
+        width: 100%;
+    }
+}
