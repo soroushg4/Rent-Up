@@ -1,0 +1,57 @@
+.recent .text{
+    padding: 30px;
+}
+
+.recent .category span{
+    padding: 4px 15px;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.grey {
+    font-size: 20px;
+    color: #bec7d8;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.red {
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+
+.recent p {
+    color: #72809d;
+}
+
+.btn-recent{
+    border-top: 1px solid #0000001c;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.btn2 {
+    margin-left: 22px;
+}
+
+@media screen and (max-width: 800px) {
+    .grid3 {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+    }
+}
+
+
+@media screen and (max-width: 609px) {
+    .grid3 {
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+}
